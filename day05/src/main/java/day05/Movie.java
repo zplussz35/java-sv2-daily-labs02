@@ -4,8 +4,8 @@ public class Movie {
     private String cim;
     private int gyartasEv;
     private double atlagErtekeles;
-    private int ertekelesDb=0;
-    private int sumErtekeles=0;
+    private int ertekelesDb;
+    private int sumErtekeles;
 
     public Movie(String cim,int gyartasEv){
         this.cim=cim;
